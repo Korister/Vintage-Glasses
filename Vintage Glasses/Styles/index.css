@@ -1,0 +1,138 @@
+@import url('https://fonts.googleapis.com/css2?family=Simonetta&family=Ubuntu:wght@300&display=swap');
+
+@font-face {
+  font-family: "Brixton Sans Outline";
+  src: url(../Fonts/BrixtonSansOutlineRg.ttf);
+}
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-size: 0px;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+.textoNormal{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.subtitulos{
+  font-family: 'Simonetta', cursive;
+}
+
+
+#section1{
+  background-color: #9fa4a6;
+  box-shadow: 0px 10px 10px #9fa4a6;
+}
+
+  #logo{
+    height: 96px;
+    width: 132px;
+  }
+
+  .nombreEmpresa{
+    font-family: "Brixton Sans Outline";
+    color: #3C4C59;
+  }
+  
+  /*-----Boton para agendar cita-----*/
+  
+  .button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 9px 12px;
+    gap: 8px;
+    height: 60px;
+    width: 220px;
+    border: none;
+    background: #536473;
+    border-radius: 20px;
+    cursor: pointer;
+  }
+
+  .lable {
+    line-height: 22px;
+    font-size: 20px;
+    color: #fff;
+    letter-spacing: 1px;
+    font-family: "Brixton Sans Outline";
+  }
+
+  .button:hover {
+    background: #3C4C59;
+  }
+
+  .button:hover .svg-icon {
+    animation: slope 1s linear infinite;
+  }
+
+  @keyframes slope {
+    0% {
+    }
+
+    50% {
+      transform: rotate(10deg);
+    }
+
+    100% {
+    }
+  }
+
+/*-----Seccion 2-----*/
+  
+  #lentes1{
+    background-color: #536473;
+  }
+
+  #TituloLentesOftalmicos{
+    color: #ccd9d7;
+  }
+
+  .tarjetitas img{
+	  width: 100%;
+  }
+
+#section3{
+  background-color: #536473;
+}
+
+  #TituloLentesSol{
+    color: #ccd9d7;
+  }
+
+#section4{
+  background-color: #ccd9d7;
+}
+
+  #section4 h2{
+    color: #3C4C59;
+  }
+
+footer{
+  background-color: black;
+}
+
+  footer img{
+    height: 64px;
+    background-color: white;
+    border-radius: 15px;
+  }
+
+  #copyright{
+    color: white;
+  }
